@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contaier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header div {
+    display: flex;
+    margin: 5px 10px;
+    align-items: center;
+}
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header button {
+    background-color: #4285f4;
+    padding: 6px 10px 6px 10px;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+}
+
+header button:hover {
+    background-color: #7eabf3;
+}
+
+header img:hover {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.s-box {
+
+    display: flex;
+    border: 2px solid gainsboro;
+    justify-content: space-between;
+    min-width: 315px;
+    width: 40%;
+    height: 46px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 50px;  
+}
+
+
+.s-box:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.s-box a {
+    margin: 7px 16px 4px 7px;
+}
+
+input {
+    flex-grow: 1;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.Språk {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.midbuttons {
+    margin: 25px 5px 0px 5px;
+
+}
+
+.midbuttons button {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 1rem;
+}
+
+.midbuttons button:hover {
+    border: 1px solid #e9eaec;
+    box-shadow: 0 0 3px 0 #e9eaec;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+    flex-direction: column;
+}
+
+.upper {
+    display: flex;
+    color: black;
+}
+
+.upper p {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border-top: 1px solid #ededee;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.lower a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.lower a:hover {
+    text-decoration: underline;
+}
+
+.upper p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
